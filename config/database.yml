@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: hello_rails_back_end_dev
+  pool: 5
+  username: sholotanyusuf
+  password: 102110
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: hello_rails_back_end_test
+  pool: 5
+  username: sholotanyusuf
+  password: 102110
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hello_rails_back_end_prod
+  pool: 5
+  username: sholotanyusuf
+  password: 102110
